@@ -23,6 +23,8 @@ en la función runCharCounter() y el Episode Location Challenge se encuentra en 
 
 3) Instalación:
 
+- Paso 0: Instalar NodeJS en caso la consola no reconozca los comandos npm.
+
 - Paso 1: abrir la consola y ejecutar el comando: npm install - g @angular/cli
 
 - Paso 2: clonar el repositorio: git clone https://github.com/github_username/repo_name.git
