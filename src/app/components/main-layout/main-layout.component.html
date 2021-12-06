@@ -1,0 +1,47 @@
+<div class="space-background-container">
+    <img
+        class="responsive-img"
+        alt="space_background"
+        src="./assets/spaceBackground.jpg"
+    />
+</div>
+<div class="rick-morty-logo-container">
+    <img
+    class="rick-morty-logo"
+    alt="rick_morty_logo"
+    src="./assets/Rick_and_Morty_Logo.png"
+    />
+    <img
+    class="challenge-logo"
+    alt="rick_morty_logo"
+    src="./assets/Challenge_logo.png"
+    />
+</div>
+
+<div *ngIf="!loadingCharacters && !loadingEpisodes && !loadingLocations" class="buttons-container">
+    <button class="cybr-btn" (click)="runCharCounter()">
+        Char Counter<span aria-hidden>_</span>
+        <span aria-hidden class="cybr-btn__glitch">Char Counter_</span>
+        <span aria-hidden class="cybr-btn__tag"></span>
+      </button>
+      <button class="cybr-btn" (click)="runEpisodeCounter()" style="margin-left: 2%;">
+        Episode Locations<span aria-hidden>_</span>
+        <span aria-hidden class="cybr-btn__glitch">Episode Locations_</span>
+        <span aria-hidden class="cybr-btn__tag"></span>
+      </button>
+</div>
+
+<div *ngIf="showCharCounter" class="modal">
+    <p class="message" [innerHTML]="charCounterOutput"></p>
+    <div class="options">
+      <button class="modal-btn" (click)="dismissModals()">Close</button>
+    </div>
+</div>
+
+<div *ngIf="showEpisodeLocation" class="modal">
+    <p class="message" [innerHTML]="episodeLocationOutput"></p>
+    <div class="options">
+      <button class="modal-btn" (click)="dismissModals()">Close</button>
+    </div>
+</div>
+
