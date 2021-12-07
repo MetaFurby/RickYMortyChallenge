@@ -25,11 +25,11 @@ en la función runCharCounter() y el Episode Location Challenge se encuentra en 
 
 - Paso 0: Instalar NodeJS en caso la consola no reconozca los comandos npm.
 
-- Paso 1: abrir la consola y ejecutar el comando: npm install - g @angular/cli
+- Paso 1: abrir el powerShell y ejecutar el comando: npm install - g @angular/cli
 
-- Paso 2: clonar el repositorio: git clone https://github.com/github_username/repo_name.git
+- Paso 2: clonar el repositorio: git clone https://github.com/MetaFurby/RickYMortyChallenge.git
 
-- Paso 3: abrir la consola en la carpeta del proyecto y ejecutar el comando: npm install
+- Paso 3: abrir el powerShell en la carpeta del proyecto y ejecutar el comando: npm install
 
 - Paso 4: al finalizar la instalación ya se podrá ejecutar el servidor local mediante el comando: ng serve
 
